@@ -80,7 +80,9 @@
                 "uri": "<uriRelativeToManifest>"
             },
             "invoice": {
-                "dataSource": "invoiceRemote"
+                "type": "sap.ui.model.json.JSONModel",
+                "uri": "model/Invoices.json"
+
             },
             "": {
                 "dataSource": "<dataSourceAlias>",
